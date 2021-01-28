@@ -20,53 +20,65 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bccd07a9-1570-4823-93c1-3600726faee7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.GGJ2021/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.GGJ2021/.idea/contentModel.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.GGJ2021/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.GGJ2021/.idea/indexLayout.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.GGJ2021/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.GGJ2021/.idea/projectSettingsUpdater.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.GGJ2021/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.GGJ2021/riderModule.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Input.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Input/GGJ2021.inputactions" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Input/GGJ2021.inputactions.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Input System.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Input System/1.0.2.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Input System/1.0.2/Simple Demo.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Input System/1.0.2/Simple Demo/.sample.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Input System/1.0.2/Simple Demo/.sample.json.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Input System/1.0.2/Simple Demo/Environment.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Input System/1.0.2/Simple Demo/Environment.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Input System/1.0.2/Simple Demo/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Input System/1.0.2/Simple Demo/README.md.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Input System/1.0.2/Simple Demo/SimpleController_UsingActionAsset.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Input System/1.0.2/Simple Demo/SimpleController_UsingActionAsset.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Input System/1.0.2/Simple Demo/SimpleController_UsingActions.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Input System/1.0.2/Simple Demo/SimpleController_UsingActions.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Input System/1.0.2/Simple Demo/SimpleController_UsingPlayerInput.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Input System/1.0.2/Simple Demo/SimpleController_UsingPlayerInput.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Input System/1.0.2/Simple Demo/SimpleController_UsingState.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Input System/1.0.2/Simple Demo/SimpleController_UsingState.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Input System/1.0.2/Simple Demo/SimpleControls.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Input System/1.0.2/Simple Demo/SimpleControls.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Input System/1.0.2/Simple Demo/SimpleControls.inputactions" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Input System/1.0.2/Simple Demo/SimpleControls.inputactions.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Input System/1.0.2/Simple Demo/SimpleDemo_UsingActionAsset.unity" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Input System/1.0.2/Simple Demo/SimpleDemo_UsingActionAsset.unity.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Input System/1.0.2/Simple Demo/SimpleDemo_UsingActions.unity" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Input System/1.0.2/Simple Demo/SimpleDemo_UsingActions.unity.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Input System/1.0.2/Simple Demo/SimpleDemo_UsingPlayerInput.unity" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Input System/1.0.2/Simple Demo/SimpleDemo_UsingPlayerInput.unity.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Input System/1.0.2/Simple Demo/SimpleDemo_UsingState.unity" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Input System/1.0.2/Simple Demo/SimpleDemo_UsingState.unity.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Input System/1.0.2/Simple Demo/SimpleProjectile.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Samples/Input System/1.0.2/Simple Demo/SimpleProjectile.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Utils.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Utils/DebugUtil.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Utils/DebugUtil.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Data.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Data/GGJ2021.inputactions" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Data/GGJ2021.inputactions.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Data/GameSettings.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Data/GameSettings.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Data/MenuController.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Data/MenuController.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Pointer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/GameSettings.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/GameSettings.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/MenuController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/MenuController.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/SessionManager.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/SessionManager.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Utils/CaptureUtil.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Utils/CaptureUtil.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Utils/DontDestroyOnLoad.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Utils/DontDestroyOnLoad.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Utils/Helper.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Utils/Helper.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.GGJ2021/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GGJ2021/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.GGJ2021/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GGJ2021/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Input.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Input/GGJ2021.inputactions" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Input/GGJ2021.inputactions.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Input System.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Input System/1.0.2.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Input System/1.0.2/Simple Demo.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Input System/1.0.2/Simple Demo/.sample.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Input System/1.0.2/Simple Demo/.sample.json.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Input System/1.0.2/Simple Demo/Environment.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Input System/1.0.2/Simple Demo/Environment.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Input System/1.0.2/Simple Demo/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Input System/1.0.2/Simple Demo/README.md.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Input System/1.0.2/Simple Demo/SimpleController_UsingActionAsset.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Input System/1.0.2/Simple Demo/SimpleController_UsingActionAsset.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Input System/1.0.2/Simple Demo/SimpleController_UsingActions.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Input System/1.0.2/Simple Demo/SimpleController_UsingActions.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Input System/1.0.2/Simple Demo/SimpleController_UsingPlayerInput.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Input System/1.0.2/Simple Demo/SimpleController_UsingPlayerInput.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Input System/1.0.2/Simple Demo/SimpleController_UsingState.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Input System/1.0.2/Simple Demo/SimpleController_UsingState.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Input System/1.0.2/Simple Demo/SimpleControls.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Input System/1.0.2/Simple Demo/SimpleControls.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Input System/1.0.2/Simple Demo/SimpleControls.inputactions" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Input System/1.0.2/Simple Demo/SimpleControls.inputactions.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Input System/1.0.2/Simple Demo/SimpleDemo_UsingActionAsset.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Input System/1.0.2/Simple Demo/SimpleDemo_UsingActionAsset.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Input System/1.0.2/Simple Demo/SimpleDemo_UsingActions.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Input System/1.0.2/Simple Demo/SimpleDemo_UsingActions.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Input System/1.0.2/Simple Demo/SimpleDemo_UsingPlayerInput.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Input System/1.0.2/Simple Demo/SimpleDemo_UsingPlayerInput.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Input System/1.0.2/Simple Demo/SimpleDemo_UsingState.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Input System/1.0.2/Simple Demo/SimpleDemo_UsingState.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Input System/1.0.2/Simple Demo/SimpleProjectile.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Input System/1.0.2/Simple Demo/SimpleProjectile.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,12 +89,16 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Samples/Input System/1.0.2/Simple Demo/SimpleController_UsingPlayerInput.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Pointer.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Assets/PlayerController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/MenuController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/GameSettings.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Digger.cs" />
+        <option value="$PROJECT_DIR$/Assets/Pointer.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" />
       </list>
     </option>
@@ -133,7 +149,7 @@
       <option name="presentableId" value="Default" />
       <updated>1611833956972</updated>
       <workItem from="1611833976372" duration="199000" />
-      <workItem from="1611834198444" duration="1909000" />
+      <workItem from="1611834198444" duration="14432000" />
     </task>
     <servers />
   </component>
