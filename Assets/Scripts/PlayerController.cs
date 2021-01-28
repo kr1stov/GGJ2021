@@ -8,6 +8,8 @@ using UnityEngine.Tilemaps;
 
 public class PlayerController : MonoBehaviour
 {
+    public static EventHandler<Vector3Int> sandTileDugAway;
+
     public GameSettings gameSettings;
     public CircleCollider2D groundCheck;
     public LayerMask groundLayers;
@@ -89,7 +91,8 @@ public class PlayerController : MonoBehaviour
         digPosition.y = ptPos.y > 0 ? (int) ptPos.y : (int) (ptPos.y - 1);
         digPosition.z = 0;
         
-        sandTilemap.SetTile(digPosition, null);
+        
+        sandTileDugAway?.Invoke(this, digPosition);
         // foreground.Set
 
         // TileBase tb = foreground.GetTile(digPosition);
