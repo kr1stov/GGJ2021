@@ -8,8 +8,10 @@
       <e p="Assets" t="Include">
         <e p="GameManager.cs" t="Include" />
         <e p="Scripts" t="Include">
+          <e p="Door.cs" t="Include" />
           <e p="GameSettings.cs" t="Include" />
           <e p="InteractableItem.cs" t="Include" />
+          <e p="Key.cs" t="Include" />
           <e p="MenuController.cs" t="Include" />
           <e p="PlayerController.cs" t="Include" />
           <e p="Pointer.cs" t="Include" />

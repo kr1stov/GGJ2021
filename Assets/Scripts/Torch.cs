@@ -8,8 +8,6 @@ public class Torch : Receiver
     public Color offState;
     public Color onState;
     
-    private bool _isOn;
-
     private SpriteRenderer _renderer;
 
     private void Start()

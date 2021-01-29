@@ -172,13 +172,13 @@ TextureImporter:
     second: monochrome_tilemap_transparent_packed_55
   - first:
       213: 1255338278792257231
-    second: monochrome_tilemap_transparent_packed_56
+    second: _door_locked
   - first:
       213: -8452106684944646491
     second: monochrome_tilemap_transparent_packed_57
   - first:
       213: 7195201074598265153
-    second: monochrome_tilemap_transparent_packed_58
+    second: _door_open
   - first:
       213: -5265677607624614547
     second: monochrome_tilemap_transparent_packed_59
@@ -289,7 +289,7 @@ TextureImporter:
     second: monochrome_tilemap_transparent_packed_94
   - first:
       213: -5261841371278959300
-    second: monochrome_tilemap_transparent_packed_95
+    second: _key_large
   - first:
       213: 6064851471948101168
     second: monochrome_tilemap_transparent_packed_96
@@ -2503,7 +2503,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: monochrome_tilemap_transparent_packed_56
+      name: _door_locked
       rect:
         serializedVersion: 2
         x: 272
@@ -2545,7 +2545,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: monochrome_tilemap_transparent_packed_58
+      name: _door_open
       rect:
         serializedVersion: 2
         x: 304
@@ -3322,7 +3322,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: monochrome_tilemap_transparent_packed_95
+      name: _key_large
       rect:
         serializedVersion: 2
         x: 256

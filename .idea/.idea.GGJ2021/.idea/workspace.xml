@@ -20,14 +20,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bccd07a9-1570-4823-93c1-3600726faee7" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.GGJ2021/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GGJ2021/.idea/indexLayout.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Door.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Door.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Key.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Key.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.GGJ2021/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GGJ2021/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.GGJ2021/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GGJ2021/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Tiles/visibility_0.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Tiles/visibility_0.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Tiles/visibility_2.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Tiles/visibility_2.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Tiles/visibility_4.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Tiles/visibility_4.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/InteractableItem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/InteractableItem.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Receiver.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Receiver.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Switch.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Switch.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Torch.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Torch.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/monochrome_tilemap_transparent_packed.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/monochrome_tilemap_transparent_packed.png.meta" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,14 +63,16 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Sener.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Sender.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Reciever.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Switch.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Receiver.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Torch.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/SandPhysics.cs" />
         <option value="$PROJECT_DIR$/Assets/GameManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/InteractableItem.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Visbility.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Switch.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/InteractableItem.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Key.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Receiver.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Torch.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Door.cs" />
       </list>
     </option>
   </component>
