@@ -20,18 +20,53 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bccd07a9-1570-4823-93c1-3600726faee7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Door.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Door.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Key.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Key.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Data/SoundLibrary.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Data/SoundLibrary.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Game.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Game.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/SoundLibrary.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/UI/AudioPanel.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/UI/AudioPanel.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/UI/ControlsPanel.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/UI/ControlsPanel.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/UI/GraphicsPanel.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/UI/GraphicsPanel.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/UI/QuitButton.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/UI/QuitButton.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Utils/EnumTypes.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Utils/EnumTypes.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Utils/SoundItem.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Utils/SoundItem.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.GGJ2021/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GGJ2021/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.GGJ2021/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GGJ2021/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Data/MenuController.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Data/MenuController.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GameManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Managers/GameManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GameManager.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Managers/GameManager.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/InteractableItem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/InteractableItem.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Receiver.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Receiver.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Switch.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Switch.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Torch.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Torch.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/monochrome_tilemap_transparent_packed.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/monochrome_tilemap_transparent_packed.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/MenuController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Managers/MenuController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/MenuController.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Managers/MenuController.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/SessionManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Managers/SessionManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/SessionManager.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Managers/SessionManager.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Player01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Player02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Player03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Player04.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Player05.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Player06.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Player07.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Player08.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/UndergroundTest01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/UndergroundTest02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/UndergroundWallTest01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/UndergroundWallTest02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/monochrome_tilemap_transparent_packed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/monochrome_tilemap_transparent_packed.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/monochrome_transparent_packed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/monochrome_transparent_packed.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/visibility.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/visibility.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +79,9 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Pointer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../../../../../Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.2d.tilemap/Editor/GridPaintPaletteClipboard.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/GameManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Managers/GameManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Managers/MenuController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/SoundLibrary.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Visbility.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/SandPhysics.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
@@ -73,6 +110,9 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Receiver.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Torch.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Door.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/UI/MenuController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/UI/ControlsPanel.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/SoundLibrary.cs" />
       </list>
     </option>
   </component>

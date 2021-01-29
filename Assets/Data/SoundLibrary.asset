@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6eb760a2517b1454ebc87b115c3a6d3e, type: 3}
+  m_Name: SoundLibrary
+  m_EditorClassIdentifier: 
+  soundItems:
+  - Background
+  - FootStep
+  entities:
+  - name: BACKGROUND
+    item: 0
+    type: 0
+    clip: {fileID: 8300000, guid: dbe26f8044a97c84db3b420c4dc64447, type: 3}
+    pitch: 1
+    volume: 1
+    loop: 1
+  - name: FOOTSTEP
+    item: 1
+    type: 1
+    clip: {fileID: 8300000, guid: 2dab4d4ea82ed1544ac54e390fa75abd, type: 3}
+    pitch: 1
+    volume: 1
+    loop: 0
