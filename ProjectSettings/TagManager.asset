@@ -50,6 +50,9 @@ TagManager:
   - name: Sand
     uniqueID: 441798487
     locked: 0
+  - name: Visbility
+    uniqueID: 2935082005
+    locked: 0
   - name: Pointer
     uniqueID: 2685618239
     locked: 0

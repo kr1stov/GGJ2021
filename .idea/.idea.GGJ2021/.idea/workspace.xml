@@ -20,8 +20,32 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bccd07a9-1570-4823-93c1-3600726faee7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Visbility.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/visibility.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/visibility.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tiles/Visibility.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tiles/Visibility.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tiles/visibility_0.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tiles/visibility_0.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tiles/visibility_1.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tiles/visibility_1.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tiles/visibility_2.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tiles/visibility_2.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tiles/visibility_3.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tiles/visibility_3.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tiles/visibility_4.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tiles/visibility_4.asset.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.GGJ2021/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GGJ2021/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.GGJ2021/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GGJ2021/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SandPhysics.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SandPhysics.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pointer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Pointer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pointer.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Pointer.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SandPhysics.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/SandPhysics.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SandPhysics.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/SandPhysics.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Settings/UniversalRP-HighQuality.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Settings/UniversalRP-HighQuality.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,8 +56,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Pointer.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/SandPhysics.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Pointer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Visbility.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/SandPhysics.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -43,8 +68,11 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/GameSettings.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Digger.cs" />
         <option value="$PROJECT_DIR$/Assets/Pointer.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" />
         <option value="$PROJECT_DIR$/Assets/SandPhysics.cs" />
+        <option value="$PROJECT_DIR$/Assets/Visbility.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/MyTile.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Visbility.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" />
       </list>
     </option>
   </component>
@@ -97,7 +125,7 @@
       <updated>1611833956972</updated>
       <workItem from="1611833976372" duration="199000" />
       <workItem from="1611834198444" duration="16769000" />
-      <workItem from="1611874198943" duration="8405000" />
+      <workItem from="1611874198943" duration="17756000" />
     </task>
     <servers />
   </component>

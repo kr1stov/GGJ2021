@@ -12,6 +12,8 @@ public class PlayerController : MonoBehaviour
 
     public GameSettings gameSettings;
     public CircleCollider2D groundCheck;
+    public BoxCollider2D groundCheckBox;
+
     public LayerMask groundLayers;
     
     private Vector3 _move;
@@ -23,7 +25,8 @@ public class PlayerController : MonoBehaviour
     [FormerlySerializedAs("foreground")] public Tilemap sandTilemap;
 
 
-    public bool IsGrounded => Physics2D.OverlapCircle(groundCheck.transform.position, groundCheck.radius, groundLayers) != null;
+    // public bool IsGrounded => Physics2D.OverlapCircle(groundCheck.transform.position, groundCheck.radius, groundLayers) != null;
+    public bool IsGrounded => Physics2D.OverlapBox(groundCheckBox.transform.position, groundCheckBox.size,  groundLayers) != null;
 
     private void Start()
     {
@@ -100,7 +103,7 @@ public class PlayerController : MonoBehaviour
         // tb.GetTileData(digPosition, foreground, ref td);
         // foreground.DeleteCells(digPosition,new Vector3Int(1,1,0));
         
-        Debug.Log($"positionInt: {positionInt} | digPosition: {digPosition}");
+        // Debug.Log($"positionInt: {positionInt} | digPosition: {digPosition}");
 
     }
 
