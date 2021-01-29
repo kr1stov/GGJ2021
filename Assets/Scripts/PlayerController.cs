@@ -3,6 +3,7 @@ using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.Serialization;
 using UnityEngine.Tilemaps;
+using Utils;
 
 
 public class PlayerController : MonoBehaviour
@@ -12,7 +13,7 @@ public class PlayerController : MonoBehaviour
 
 
     public GameSettings gameSettings;
-    public CircleCollider2D groundCheck;
+    // public CircleCollider2D groundCheck;
     public BoxCollider2D groundCheckBox;
 
     public LayerMask groundLayers;
@@ -26,11 +27,8 @@ public class PlayerController : MonoBehaviour
     private bool IsNextToObject => _currentInteractableItem != null;
     private InteractableItem _currentInteractableItem = null;
     
-    [FormerlySerializedAs("foreground")] public Tilemap sandTilemap;
-
-    // public bool IsGrounded => Physics2D.OverlapCircle(groundCheck.transform.position, groundCheck.radius, groundLayers) != null;
-    public bool IsGrounded => Physics2D.OverlapBox(groundCheckBox.transform.position, groundCheckBox.size,  groundLayers) != null;
-
+    public bool IsGrounded => Physics2D.OverlapBox(groundCheckBox.transform.position, groundCheckBox.size, 0f, groundLayers) != null;
+    
     private void Start()
     {
         _rb = GetComponent<Rigidbody2D>();
@@ -39,6 +37,13 @@ public class PlayerController : MonoBehaviour
 
     private void Update()
     {
+        DebugUtil.Log($"IsGrounded:{IsGrounded}");
+        // DebugUtil.Log($"groundCheckBox.transform.position: {groundCheckBox.transform.position}");
+        // DebugUtil.Log($"groundCheckBox.size: {groundCheckBox.size}");
+
+
+        DebugUtil.Log($"colliding with: {Physics2D.OverlapBox(groundCheckBox.transform.position, groundCheckBox.size,  groundLayers).name}");
+        
         if (SessionManager.Instance.menuController.gameIsPaused)
             return;
         

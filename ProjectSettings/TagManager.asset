@@ -41,7 +41,13 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
-  - name: Background
+  - name: Sky
+    uniqueID: 197471761
+    locked: 0
+  - name: Deko
+    uniqueID: 4268599699
+    locked: 0
+  - name: Architecture
     uniqueID: 553151607
     locked: 0
   - name: Player
