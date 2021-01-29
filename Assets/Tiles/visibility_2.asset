@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: visibility_2
   m_EditorClassIdentifier: 
   m_Sprite: {fileID: -6234988739700242216, guid: da6f1194f9712ca41aacb9497d767707, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.5019608}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.3764706}
   m_Transform:
     e00: 1
     e01: 0

@@ -59,8 +59,8 @@ public class Visbility : MonoBehaviour
     
     private void RevealFixed(object sender, Vector3Int playerWorldPosition)
     {
-        int width = 5;
-        int height = 5;
+        int width = 7;
+        int height = 7;
         
         Vector3Int tilePos = Vector3Int.zero;
         tilePos.x = (int) playerWorldPosition.x;
@@ -79,7 +79,7 @@ public class Visbility : MonoBehaviour
                 t = Mathf.Clamp(t, 0, tiles.Length - 1);
                 
                 DebugUtil.Log($"t: {t}");
-                RevealTile(new Vector3Int(posX, posY, 0), tiles[(int)t]);
+                RevealTile(new Vector3Int(posX, posY, 0), tiles[0]);
             }
         }
     }
