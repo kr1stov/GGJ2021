@@ -2,13 +2,14 @@ using System;
 using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.Serialization;
-using Utils;
 using UnityEngine.Tilemaps;
 
 
 public class PlayerController : MonoBehaviour
 {
     public static EventHandler<Vector3Int> sandTileDugAway;
+    public static EventHandler<int> interactedWithItem;
+
 
     public GameSettings gameSettings;
     public CircleCollider2D groundCheck;
@@ -21,9 +22,11 @@ public class PlayerController : MonoBehaviour
     private bool _jumped = false;
     private Rigidbody2D _rb;
     private Pointer _pointer;
+
+    private bool IsNextToObject => _currentInteractableItem != null;
+    private InteractableItem _currentInteractableItem = null;
     
     [FormerlySerializedAs("foreground")] public Tilemap sandTilemap;
-
 
     // public bool IsGrounded => Physics2D.OverlapCircle(groundCheck.transform.position, groundCheck.radius, groundLayers) != null;
     public bool IsGrounded => Physics2D.OverlapBox(groundCheckBox.transform.position, groundCheckBox.size,  groundLayers) != null;
@@ -40,6 +43,16 @@ public class PlayerController : MonoBehaviour
             return;
         
         Move(_move);
+    }
+
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        _currentInteractableItem = other.GetComponent<InteractableItem>();
+    }
+    
+    private void OnTriggerExit2D(Collider2D other)
+    {
+        _currentInteractableItem = null;
     }
 
     public void OnMove(InputAction.CallbackContext context)
@@ -60,13 +73,13 @@ public class PlayerController : MonoBehaviour
     {
         if (context.started)
             Jump();
-        //     _jumped = true;
-        // else if (context.canceled)
-        //     _jumped = false;
     }
 
-    public void OnDig(InputAction.CallbackContext context)
+    public void OnInteract(InputAction.CallbackContext context)
     {
+        if(IsNextToObject)
+            InteractWith(_currentInteractableItem);
+        
         if (context.started)
             Dig();
     }
@@ -93,24 +106,19 @@ public class PlayerController : MonoBehaviour
         digPosition.x = ptPos.x > 0 ? (int) ptPos.x : (int) (ptPos.x - 1);
         digPosition.y = ptPos.y > 0 ? (int) ptPos.y : (int) (ptPos.y - 1);
         digPosition.z = 0;
-        
-        
+
         sandTileDugAway?.Invoke(this, digPosition);
-        // foreground.Set
-
-        // TileBase tb = foreground.GetTile(digPosition);
-        // TileData td = new TileData();
-        // tb.GetTileData(digPosition, foreground, ref td);
-        // foreground.DeleteCells(digPosition,new Vector3Int(1,1,0));
-        
-        // Debug.Log($"positionInt: {positionInt} | digPosition: {digPosition}");
-
     }
 
     private void Jump()
     {
         if(IsGrounded)
             _rb.AddForce(Vector2.up*gameSettings.jumpHeight, ForceMode2D.Impulse);
+    }
+
+    private void InteractWith(InteractableItem current)
+    {
+        interactedWithItem?.Invoke(this, current.gameObject.GetInstanceID());
     }
     
 }

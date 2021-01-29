@@ -30,7 +30,7 @@
                     "interactions": ""
                 },
                 {
-                    "name": "Dig",
+                    "name": "Interact",
                     "type": "Button",
                     "id": "e4434018-328e-4a59-b4f6-b9cfac4f38ae",
                     "expectedControlType": "Button",
@@ -298,7 +298,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": ";Gamepad",
-                    "action": "Dig",
+                    "action": "Interact",
                     "isComposite": false,
                     "isPartOfComposite": false
                 },
@@ -309,7 +309,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": ";Keyboard&Mouse",
-                    "action": "Dig",
+                    "action": "Interact",
                     "isComposite": false,
                     "isPartOfComposite": false
                 },
@@ -320,7 +320,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": ";Touch",
-                    "action": "Dig",
+                    "action": "Interact",
                     "isComposite": false,
                     "isPartOfComposite": false
                 },
@@ -331,7 +331,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "Joystick",
-                    "action": "Dig",
+                    "action": "Interact",
                     "isComposite": false,
                     "isPartOfComposite": false
                 },
@@ -342,7 +342,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "XR",
-                    "action": "Dig",
+                    "action": "Interact",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }

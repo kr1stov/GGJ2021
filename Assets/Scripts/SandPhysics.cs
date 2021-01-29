@@ -4,9 +4,6 @@ using UnityEngine.Tilemaps;
 
 public class SandPhysics : MonoBehaviour
 {
-    public Tilemap SandTilemap;
-    public Tilemap ArchitectureTilemap;
-
     public float sandDelay;
     private void OnEnable()
     {
@@ -26,7 +23,7 @@ public class SandPhysics : MonoBehaviour
 
     private IEnumerator DeleteTile(float delay, Vector3Int position)
     {
-        SandTilemap.SetTile(position, null);
+        GameManager.Instance.sandTilemap.SetTile(position, null);
         yield return new WaitForSeconds(delay);
         FlowToSides(delay, position);
         FlowDown(delay, position);
@@ -34,39 +31,39 @@ public class SandPhysics : MonoBehaviour
     
     private void FlowDown(float delay, Vector3Int position)
     {
-        Tile up = (Tile)SandTilemap.GetTile(position+Vector3Int.up);
-        Tile upArch = (Tile)ArchitectureTilemap.GetTile(position+Vector3Int.up);
+        Tile up = (Tile)GameManager.Instance.sandTilemap.GetTile(position+Vector3Int.up);
+        Tile upArch = (Tile)GameManager.Instance.architectureTilemap.GetTile(position+Vector3Int.up);
 
         if (up && !upArch)
         {
-            SandTilemap.SetTile(position, up);
+            GameManager.Instance.sandTilemap.SetTile(position, up);
             StartCoroutine(DeleteTile(delay, position + Vector3Int.up));
         }
     }
     
     private void FlowToSides(float delay, Vector3Int position)
     {
-        Tile left = (Tile)SandTilemap.GetTile(position+Vector3Int.left);
-        Tile upperleft = (Tile)SandTilemap.GetTile(position+(Vector3Int.up+Vector3Int.left));
+        Tile left = (Tile)GameManager.Instance.sandTilemap.GetTile(position+Vector3Int.left);
+        Tile upperleft = (Tile)GameManager.Instance.sandTilemap.GetTile(position+(Vector3Int.up+Vector3Int.left));
         
-        Tile leftArch = (Tile)ArchitectureTilemap.GetTile(position+Vector3Int.left);
-        Tile upperleftArch = (Tile)ArchitectureTilemap.GetTile(position+(Vector3Int.up+Vector3Int.left));
+        Tile leftArch = (Tile)GameManager.Instance.architectureTilemap.GetTile(position+Vector3Int.left);
+        Tile upperleftArch = (Tile)GameManager.Instance.architectureTilemap.GetTile(position+(Vector3Int.up+Vector3Int.left));
 
         if (left && upperleft && !leftArch && !upperleftArch)
         {
-            SandTilemap.SetTile(position, left);
+            GameManager.Instance.sandTilemap.SetTile(position, left);
             StartCoroutine(DeleteTile(delay, position + Vector3Int.left));
         }
         
-        Tile right = (Tile)SandTilemap.GetTile(position+Vector3Int.right);
-        Tile upperright = (Tile)SandTilemap.GetTile(position+(Vector3Int.up+Vector3Int.right));
+        Tile right = (Tile)GameManager.Instance.sandTilemap.GetTile(position+Vector3Int.right);
+        Tile upperright = (Tile)GameManager.Instance.sandTilemap.GetTile(position+(Vector3Int.up+Vector3Int.right));
         
-        Tile rightArch = (Tile)ArchitectureTilemap.GetTile(position+Vector3Int.right);
-        Tile upperrightArch = (Tile)ArchitectureTilemap.GetTile(position+(Vector3Int.up+Vector3Int.right));
+        Tile rightArch = (Tile)GameManager.Instance.architectureTilemap.GetTile(position+Vector3Int.right);
+        Tile upperrightArch = (Tile)GameManager.Instance.architectureTilemap.GetTile(position+(Vector3Int.up+Vector3Int.right));
 
         if (right && upperright && !rightArch && !upperrightArch)
         {
-            SandTilemap.SetTile(position, right);
+            GameManager.Instance.sandTilemap.SetTile(position, right);
             StartCoroutine(DeleteTile(delay, position + Vector3Int.left));
         }
     }
