@@ -13,7 +13,6 @@ public class PlayerController : MonoBehaviour
 
 
     public GameSettings gameSettings;
-    // public CircleCollider2D groundCheck;
     public BoxCollider2D groundCheckBox;
 
     public LayerMask groundLayers;
@@ -26,13 +25,16 @@ public class PlayerController : MonoBehaviour
 
     private bool IsNextToObject => _currentInteractableItem != null;
     private InteractableItem _currentInteractableItem = null;
-    
+    private Animator _animator;
+    private static readonly int MoveSpeed = Animator.StringToHash("moveSpeed");
+
     public bool IsGrounded => Physics2D.OverlapBox(groundCheckBox.transform.position, groundCheckBox.size, 0f, groundLayers) != null;
     
     private void Start()
     {
         _rb = GetComponent<Rigidbody2D>();
         _pointer = FindObjectOfType<Pointer>();
+        _animator = GetComponent<Animator>();
     }
 
     private void Update()
@@ -91,12 +93,16 @@ public class PlayerController : MonoBehaviour
 
     private void Move(Vector2 dir)
     {
+        _animator.SetFloat(MoveSpeed, dir.sqrMagnitude);
+        
         if (dir.sqrMagnitude < 0.01)
             return;
         
         var scaledMoveSpeed = (_isRunning ? gameSettings.runSpeed : gameSettings.moveSpeed) * Time.deltaTime;
         var move = new Vector3(dir.x, dir.y, 0) * scaledMoveSpeed;
         transform.position += move;
+        
+        DebugUtil.Log($"moveSpeed: {dir.sqrMagnitude}");
     }
 
     private void Dig()
