@@ -1,8 +1,6 @@
 using System;
 using UnityEngine;
 using UnityEngine.InputSystem;
-using UnityEngine.Serialization;
-using UnityEngine.Tilemaps;
 using Utils;
 
 
@@ -11,10 +9,9 @@ public class PlayerController : MonoBehaviour
     public static EventHandler<Vector3Int> sandTileDugAway;
     public static EventHandler<int> interactedWithItem;
 
-
     public GameSettings gameSettings;
-    public BoxCollider2D groundCheckBox;
-
+    public CircleCollider2D groundCheckCircle;
+    
     public LayerMask groundLayers;
     
     private Vector3 _move;
@@ -30,8 +27,9 @@ public class PlayerController : MonoBehaviour
     private static readonly int MoveSpeed = Animator.StringToHash("moveSpeed");
     private static readonly int Dig1 = Animator.StringToHash("dig");
 
-    public bool IsGrounded => Physics2D.OverlapBox(groundCheckBox.transform.position, groundCheckBox.size, 0f, groundLayers) != null;
-    
+    public bool IsGrounded => Physics2D.OverlapCircle(groundCheckCircle.transform.position, groundCheckCircle.radius, groundLayers) != null;
+    // public bool IsGrounded => Physics2D.OverlapBox(groundCheckBox.transform.position, groundCheckBox.size, 0f, groundLayers) != null;
+
     private void Start()
     {
         _rb = GetComponent<Rigidbody2D>();
@@ -43,11 +41,9 @@ public class PlayerController : MonoBehaviour
     private void Update()
     {
         DebugUtil.Log($"IsGrounded:{IsGrounded}");
-        // DebugUtil.Log($"groundCheckBox.transform.position: {groundCheckBox.transform.position}");
-        // DebugUtil.Log($"groundCheckBox.size: {groundCheckBox.size}");
-
-
-        DebugUtil.Log($"colliding with: {Physics2D.OverlapBox(groundCheckBox.transform.position, groundCheckBox.size,  groundLayers).name}");
+        // if(IsGrounded)
+        //     DebugUtil.Log($"colliding with: {Physics2D.OverlapCircle(groundCheckCircle.transform.position, groundCheckCircle.radius, groundLayers).name}");
+        // DebugUtil.Log($"colliding with: {Physics2D.OverlapBox(groundCheckBox.transform.position, groundCheckBox.size,  groundLayers).name}");
         
         if (SessionManager.Instance.menuController.gameIsPaused)
             return;
@@ -107,7 +103,7 @@ public class PlayerController : MonoBehaviour
         var move = new Vector3(dir.x, dir.y, 0) * scaledMoveSpeed;
         transform.position += move;
         
-        DebugUtil.Log($"moveSpeed: {dir.sqrMagnitude}");
+        // DebugUtil.Log($"moveSpeed: {dir.sqrMagnitude}");
     }
 
     private void Dig()
