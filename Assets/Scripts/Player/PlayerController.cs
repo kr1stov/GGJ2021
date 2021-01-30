@@ -26,7 +26,9 @@ public class PlayerController : MonoBehaviour
     private bool IsNextToObject => _currentInteractableItem != null;
     private InteractableItem _currentInteractableItem = null;
     private Animator _animator;
+    private SpriteRenderer _renderer;
     private static readonly int MoveSpeed = Animator.StringToHash("moveSpeed");
+    private static readonly int Dig1 = Animator.StringToHash("dig");
 
     public bool IsGrounded => Physics2D.OverlapBox(groundCheckBox.transform.position, groundCheckBox.size, 0f, groundLayers) != null;
     
@@ -35,6 +37,7 @@ public class PlayerController : MonoBehaviour
         _rb = GetComponent<Rigidbody2D>();
         _pointer = FindObjectOfType<Pointer>();
         _animator = GetComponent<Animator>();
+        _renderer = GetComponent<SpriteRenderer>();
     }
 
     private void Update()
@@ -98,6 +101,8 @@ public class PlayerController : MonoBehaviour
         if (dir.sqrMagnitude < 0.01)
             return;
         
+        _renderer.flipX = dir.x < 0;
+        
         var scaledMoveSpeed = (_isRunning ? gameSettings.runSpeed : gameSettings.moveSpeed) * Time.deltaTime;
         var move = new Vector3(dir.x, dir.y, 0) * scaledMoveSpeed;
         transform.position += move;
@@ -107,6 +112,8 @@ public class PlayerController : MonoBehaviour
 
     private void Dig()
     {
+        _animator.SetTrigger(Dig1);
+        
         var t = transform;
         var position = t.position;
         var positionInt = new Vector3Int((int) position.x, (int) position.y, (int) position.z);

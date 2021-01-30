@@ -20,36 +20,48 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bccd07a9-1570-4823-93c1-3600726faee7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Animations/Player.controller" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animations/Player.controller.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animations/Player@Idle.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animations/Player@Idle.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animations/Player@Walk.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animations/Player@Walk.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Items.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Mechanics.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Player.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Game.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Game.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Door.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Items/Door.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Door.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Items/Door.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/InteractableItem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Items/InteractableItem.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/InteractableItem.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Items/InteractableItem.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Key.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Items/Key.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Key.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Items/Key.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerController.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Pointer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/Pointer.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Pointer.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/Pointer.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Receiver.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Items/Receiver.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Receiver.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Items/Receiver.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/SandPhysics.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Mechanics/SandPhysics.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/SandPhysics.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Mechanics/SandPhysics.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Switch.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Items/Switch.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Switch.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Items/Switch.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Torch.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Items/Torch.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Torch.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Items/Torch.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Visbility.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Mechanics/Visbility.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Visbility.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Mechanics/Visbility.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Player/Player.controller" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Player/Player.controller.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Player/Player.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Player/Player.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Player/Player@Dig.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Player/Player@Dig.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Player/Player@Idle.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Player/Player@Idle.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Player/Player@Walk.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Player/Player@Walk.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/UI.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/UI/Menu Button.controller" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/UI/Menu Button.controller.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Menu Button.controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Menu Button.controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Player.controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Player.controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Player@Idle.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Player@Idle.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Player@Walk.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Player@Walk.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Menu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Menu.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Player/Player01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Player/Player01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Player/Player02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Player/Player02.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Player/Player03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Player/Player03.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Player/Player04.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Player/Player04.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Player/Player05.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Player/Player05.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Player/Player06.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Player/Player06.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Player/Player07.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Player/Player07.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Player/Player08.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Player/Player08.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Player/SpriteSheet.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
