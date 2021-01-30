@@ -734,7 +734,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: space digga
+  m_text: deep space archeolgy
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 662b724644aa513438cdb740256c270b, type: 2}
   m_sharedMaterial: {fileID: 8578678312771696428, guid: 662b724644aa513438cdb740256c270b, type: 2}
