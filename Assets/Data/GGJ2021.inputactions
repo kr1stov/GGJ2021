@@ -918,6 +918,33 @@
                     "isPartOfComposite": false
                 }
             ]
+        },
+        {
+            "name": "DevMenu",
+            "id": "c1c08390-1a8b-4028-b402-0b25fb098ef7",
+            "actions": [
+                {
+                    "name": "ToggleConsole",
+                    "type": "Button",
+                    "id": "d3bb9daf-6c4e-4ae1-8124-fe07a37a8b84",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "8723081e-7a9f-4f4a-aacd-13c7fc5f90b4",
+                    "path": "<Keyboard>/tab",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Keyboard&Mouse",
+                    "action": "ToggleConsole",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
         }
     ],
     "controlSchemes": [

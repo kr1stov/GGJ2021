@@ -1,4 +1,5 @@
 using System;
+using DefaultNamespace;
 using UnityEngine;
 using UnityEngine.InputSystem;
 using Utils;
@@ -64,7 +65,11 @@ public class PlayerController : MonoBehaviour
     public void OnMove(InputAction.CallbackContext context)
     {
         _move = context.ReadValue<Vector2>();
-        // DebugUtil.Log($"direction:{_move}");
+        DebugUtil.Log($"direction:{_move}");
+#if UNITY_EDITOR
+        Debug.Log(string.Format("direction:{0}", _move));
+#endif
+        Debug.Log("direction:" + _move);
     }
 
     public void OnRun(InputAction.CallbackContext context)

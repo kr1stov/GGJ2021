@@ -7,6 +7,7 @@ public class GameManager : MonoBehaviour
     
     public Tilemap architectureTilemap;
     public Tilemap sandTilemap;
+    public Tilemap sandBackgroundTilemap;
     public Tilemap visibilityTilemap;
     // public Tilemap BackgroundTilemap;
     

@@ -23,10 +23,24 @@ public class SandPhysics : MonoBehaviour
 
     private IEnumerator DeleteTile(float delay, Vector3Int position)
     {
-        GameManager.Instance.sandTilemap.SetTile(position, null);
-        yield return new WaitForSeconds(delay);
-        FlowToSides(delay, position);
-        FlowDown(delay, position);
+        var archTile = GameManager.Instance.architectureTilemap.GetTile(position);
+        var sandTile = GameManager.Instance.sandTilemap.GetTile(position);
+
+        
+        if (archTile == null)
+        {
+            GameManager.Instance.sandTilemap.SetTile(position, null);
+            yield return new WaitForSeconds(delay);
+            FlowToSides(delay, position);
+            FlowDown(delay, position);
+        }
+        else if(sandTile != null)
+        {
+
+            GameManager.Instance.sandTilemap.SetTile(position, null);
+            GameManager.Instance.sandBackgroundTilemap.SetTile(position, sandTile);
+        }
+        
     }
     
     private void FlowDown(float delay, Vector3Int position)

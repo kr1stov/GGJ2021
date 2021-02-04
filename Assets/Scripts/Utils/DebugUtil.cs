@@ -49,9 +49,10 @@ namespace Utils
 
         public static void Log(object o)
         {
-#if UNITY_EDITOR
-            Debug.Log(o.ToString());
-#endif
+// #if UNITY_EDITOR
+            if(Application.isEditor || Debug.isDebugBuild)
+                Debug.Log(o.ToString());
+// #endif
         }
         
         public static void LogWarning(object o)
