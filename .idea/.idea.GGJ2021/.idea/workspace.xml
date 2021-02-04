@@ -20,47 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bccd07a9-1570-4823-93c1-3600726faee7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Data/Inventory.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Data/Inventory.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Data/Items.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Data/Items/Item  - Poison.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Data/Items/Item  - Poison.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Data/Items/item  - Key.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Data/Items/item  - Key.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/SpriteLit.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/SpriteLit.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scenes/DevMenu.unity" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scenes/DevMenu.unity.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/DevConsole.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/DevConsole.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/DevMenu.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Inventory.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Inventory.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Item.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Item.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/ParallaxScroll.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.GGJ2021/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GGJ2021/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.GGJ2021/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GGJ2021/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Data/GGJ2021.inputactions" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Data/GGJ2021.inputactions" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fonts/Kenney Pixel Square SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Fonts/Kenney Pixel Square SDF.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/InfoScroll.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/InfoScroll.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/InfoScroll.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/InfoScroll.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ParallaxScroll.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ParallaxScroll.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ParallaxScroll.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Game.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Game.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/IngameMenu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/IngameMenu.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Managers/GameManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Managers/GameManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Mechanics/SandPhysics.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Mechanics/SandPhysics.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/SoundLibrary.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/SoundLibrary.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Utils/DebugUtil.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Utils/DebugUtil.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Utils/EnumTypes.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Utils/EnumTypes.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Utils/SoundItem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Utils/SoundItem.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Prototyping/monochrome_tilemap_transparent_packed.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Prototyping/monochrome_tilemap_transparent_packed.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Prototyping/monochrome_transparent_packed.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Prototyping/monochrome_transparent_packed.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Prototyping/visibility.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Prototyping/visibility.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ParallaxScroll.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ParallaxScroll.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,13 +51,13 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/Managers/GameManager.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Mechanics/SandPhysics.cs" />
       <option value="$PROJECT_DIR$/Assets/ParallaxScroll.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/ParallaxScroll.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Inventory.cs" />
       <option value="$PROJECT_DIR$/Assets/Inventory.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Item.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Utils/EnumTypes.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/SoundLibrary.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Player/PlayerController.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/ParallaxScroll.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1nhEWCVbKhXg1Pr8XIPUl6dkLCV" />
@@ -159,7 +120,7 @@
       <workItem from="1612095475694" duration="3101000" />
       <workItem from="1612367169268" duration="3593000" />
       <workItem from="1612428722978" duration="13027000" />
-      <workItem from="1612450303108" duration="6858000" />
+      <workItem from="1612450303108" duration="10642000" />
     </task>
     <servers />
   </component>

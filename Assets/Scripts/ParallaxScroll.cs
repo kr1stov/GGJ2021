@@ -1,43 +1,36 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Serialization;
 
 public class ParallaxScroll : MonoBehaviour
 {
-    public Transform start;
-    public Transform end;
-    public float maxOffset;
+    public Transform playerLeft;
+    public Transform playerRight;
+    
+    [FormerlySerializedAs("start")] public Transform left;
+    [FormerlySerializedAs("end")] public Transform right;
+    public Transform sprite;
 
+    [SerializeField] private float distStartEnd;
+    [SerializeField] private float distStartPlayer;
+    [SerializeField] private float t;
+    
     private PlayerController _player;
-    private Vector3 startPos;
-    private Vector3 endPos;
-    private Vector3 currentPos;
-    private Vector3 center;
-
+    
     // Start is called before the first frame update
     void Start()
     {
         _player = FindObjectOfType<PlayerController>();
-        startPos = start.position;
-        endPos = end.position;
-        center = Vector3.Lerp(startPos, endPos, .5f);
-        
-        currentPos = _player.transform.position;
-        currentPos.y = transform.position.y;
-
-        transform.position = currentPos;
     }
 
     // Update is called once per frame
     void Update()
     {
-        var playerDistToCenter = _player.transform.position - center;
-        var maxDistToCenter = Vector3.Distance(startPos, endPos);
-        var tPlayer = playerDistToCenter / maxDistToCenter;
+        distStartEnd = Vector3.Distance(playerLeft.position, playerRight.position);
+        distStartPlayer = Vector3.Distance(playerLeft.position, _player.transform.position);
+        t = distStartPlayer / distStartEnd;
 
-        var finalPos = _player.transform.position + -tPlayer * maxOffset;
-        finalPos.y = .5f;
-        
-        transform.position = finalPos;
+        sprite.position = Vector3.Lerp(left.position, right.position, t);
     }
 }

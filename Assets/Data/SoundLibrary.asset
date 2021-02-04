@@ -15,7 +15,15 @@ MonoBehaviour:
   soundItems:
   - Background
   - FootStep
+  - Test
   entities:
+  - name: FOOTSTEP
+    item: 1
+    type: 1
+    clip: {fileID: 8300000, guid: 2dab4d4ea82ed1544ac54e390fa75abd, type: 3}
+    pitch: 1.23
+    volume: 0.702
+    loop: 0
   - name: BACKGROUND
     item: 0
     type: 0
@@ -23,10 +31,10 @@ MonoBehaviour:
     pitch: 1
     volume: 1
     loop: 1
-  - name: FOOTSTEP
-    item: 1
-    type: 1
-    clip: {fileID: 8300000, guid: 2dab4d4ea82ed1544ac54e390fa75abd, type: 3}
+  - name: TEST
+    item: 2
+    type: 0
+    clip: {fileID: 8300000, guid: dbe26f8044a97c84db3b420c4dc64447, type: 3}
     pitch: 1
     volume: 1
-    loop: 0
+    loop: 1
